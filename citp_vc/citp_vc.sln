@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "citp_vc", "citp_vc\citp_vc.vcproj", "{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tester", "tester\tester.vcproj", "{E716D753-5134-4772-9405-B6A9C4214CEB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83} = {C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}.Debug|Win32.Build.0 = Debug|Win32
+		{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}.Release|Win32.ActiveCfg = Release|Win32
+		{C9C7EC10-3BE8-4DCC-AB59-624EBBC5AD83}.Release|Win32.Build.0 = Release|Win32
+		{E716D753-5134-4772-9405-B6A9C4214CEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E716D753-5134-4772-9405-B6A9C4214CEB}.Debug|Win32.Build.0 = Debug|Win32
+		{E716D753-5134-4772-9405-B6A9C4214CEB}.Release|Win32.ActiveCfg = Release|Win32
+		{E716D753-5134-4772-9405-B6A9C4214CEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

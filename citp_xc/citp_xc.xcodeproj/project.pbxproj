@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FDA1581148BF1D10005563B /* citp-lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA156E148BF1D10005563B /* citp-lib.cpp */; };
+		4FDA1582148BF1D10005563B /* citp-lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA156F148BF1D10005563B /* citp-lib.h */; };
+		4FDA1583148BF1D10005563B /* CITPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1570148BF1D10005563B /* CITPDefines.h */; };
+		4FDA1584148BF1D10005563B /* Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA1571148BF1D10005563B /* Fixture.cpp */; };
+		4FDA1585148BF1D10005563B /* Fixture.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1572148BF1D10005563B /* Fixture.h */; };
+		4FDA1586148BF1D10005563B /* FixtureModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA1573148BF1D10005563B /* FixtureModel.cpp */; };
+		4FDA1587148BF1D10005563B /* FixtureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1574148BF1D10005563B /* FixtureModel.h */; };
+		4FDA1588148BF1D10005563B /* Mediaserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA1575148BF1D10005563B /* Mediaserver.cpp */; };
+		4FDA1589148BF1D10005563B /* Mediaserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1576148BF1D10005563B /* Mediaserver.h */; };
+		4FDA158A148BF1D10005563B /* PacketCreator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA1577148BF1D10005563B /* PacketCreator.cpp */; };
+		4FDA158B148BF1D10005563B /* PacketCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1578148BF1D10005563B /* PacketCreator.h */; };
+		4FDA158C148BF1D10005563B /* Peer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA1579148BF1D10005563B /* Peer.cpp */; };
+		4FDA158D148BF1D10005563B /* Peer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA157A148BF1D10005563B /* Peer.h */; };
+		4FDA158E148BF1D10005563B /* PeerInformationSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA157B148BF1D10005563B /* PeerInformationSocket.cpp */; };
+		4FDA158F148BF1D10005563B /* PeerInformationSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA157C148BF1D10005563B /* PeerInformationSocket.h */; };
+		4FDA1590148BF1D10005563B /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA157D148BF1D10005563B /* stdafx.cpp */; };
+		4FDA1591148BF1D10005563B /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA157E148BF1D10005563B /* stdafx.h */; };
+		4FDA1592148BF1D10005563B /* Visualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA157F148BF1D10005563B /* Visualizer.cpp */; };
+		4FDA1593148BF1D10005563B /* Visualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDA1580148BF1D10005563B /* Visualizer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FDA1569148BF1810005563B /* libcitpd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcitpd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDA156E148BF1D10005563B /* citp-lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "citp-lib.cpp"; path = "../Library/citp-lib.cpp"; sourceTree = SOURCE_ROOT; };
+		4FDA156F148BF1D10005563B /* citp-lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "citp-lib.h"; path = "../Library/citp-lib.h"; sourceTree = SOURCE_ROOT; };
+		4FDA1570148BF1D10005563B /* CITPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITPDefines.h; path = ../Library/CITPDefines.h; sourceTree = SOURCE_ROOT; };
+		4FDA1571148BF1D10005563B /* Fixture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Fixture.cpp; path = ../Library/Fixture.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA1572148BF1D10005563B /* Fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fixture.h; path = ../Library/Fixture.h; sourceTree = SOURCE_ROOT; };
+		4FDA1573148BF1D10005563B /* FixtureModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixtureModel.cpp; path = ../Library/FixtureModel.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA1574148BF1D10005563B /* FixtureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixtureModel.h; path = ../Library/FixtureModel.h; sourceTree = SOURCE_ROOT; };
+		4FDA1575148BF1D10005563B /* Mediaserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mediaserver.cpp; path = ../Library/Mediaserver.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA1576148BF1D10005563B /* Mediaserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mediaserver.h; path = ../Library/Mediaserver.h; sourceTree = SOURCE_ROOT; };
+		4FDA1577148BF1D10005563B /* PacketCreator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PacketCreator.cpp; path = ../Library/PacketCreator.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA1578148BF1D10005563B /* PacketCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PacketCreator.h; path = ../Library/PacketCreator.h; sourceTree = SOURCE_ROOT; };
+		4FDA1579148BF1D10005563B /* Peer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Peer.cpp; path = ../Library/Peer.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA157A148BF1D10005563B /* Peer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Peer.h; path = ../Library/Peer.h; sourceTree = SOURCE_ROOT; };
+		4FDA157B148BF1D10005563B /* PeerInformationSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PeerInformationSocket.cpp; path = ../Library/PeerInformationSocket.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA157C148BF1D10005563B /* PeerInformationSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeerInformationSocket.h; path = ../Library/PeerInformationSocket.h; sourceTree = SOURCE_ROOT; };
+		4FDA157D148BF1D10005563B /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = ../Library/stdafx.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA157E148BF1D10005563B /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../Library/stdafx.h; sourceTree = SOURCE_ROOT; };
+		4FDA157F148BF1D10005563B /* Visualizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Visualizer.cpp; path = ../Library/Visualizer.cpp; sourceTree = SOURCE_ROOT; };
+		4FDA1580148BF1D10005563B /* Visualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Visualizer.h; path = ../Library/Visualizer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FDA1567148BF1810005563B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDA1552148BF1530005563B = {
+			isa = PBXGroup;
+			children = (
+				4FDA156E148BF1D10005563B /* citp-lib.cpp */,
+				4FDA156F148BF1D10005563B /* citp-lib.h */,
+				4FDA1570148BF1D10005563B /* CITPDefines.h */,
+				4FDA1571148BF1D10005563B /* Fixture.cpp */,
+				4FDA1572148BF1D10005563B /* Fixture.h */,
+				4FDA1573148BF1D10005563B /* FixtureModel.cpp */,
+				4FDA1574148BF1D10005563B /* FixtureModel.h */,
+				4FDA1575148BF1D10005563B /* Mediaserver.cpp */,
+				4FDA1576148BF1D10005563B /* Mediaserver.h */,
+				4FDA1577148BF1D10005563B /* PacketCreator.cpp */,
+				4FDA1578148BF1D10005563B /* PacketCreator.h */,
+				4FDA1579148BF1D10005563B /* Peer.cpp */,
+				4FDA157A148BF1D10005563B /* Peer.h */,
+				4FDA157B148BF1D10005563B /* PeerInformationSocket.cpp */,
+				4FDA157C148BF1D10005563B /* PeerInformationSocket.h */,
+				4FDA157D148BF1D10005563B /* stdafx.cpp */,
+				4FDA157E148BF1D10005563B /* stdafx.h */,
+				4FDA157F148BF1D10005563B /* Visualizer.cpp */,
+				4FDA1580148BF1D10005563B /* Visualizer.h */,
+				4FDA156A148BF1810005563B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FDA156A148BF1810005563B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA1569148BF1810005563B /* libcitpd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FDA1565148BF1810005563B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA1582148BF1D10005563B /* citp-lib.h in Headers */,
+				4FDA1583148BF1D10005563B /* CITPDefines.h in Headers */,
+				4FDA1585148BF1D10005563B /* Fixture.h in Headers */,
+				4FDA1587148BF1D10005563B /* FixtureModel.h in Headers */,
+				4FDA1589148BF1D10005563B /* Mediaserver.h in Headers */,
+				4FDA158B148BF1D10005563B /* PacketCreator.h in Headers */,
+				4FDA158D148BF1D10005563B /* Peer.h in Headers */,
+				4FDA158F148BF1D10005563B /* PeerInformationSocket.h in Headers */,
+				4FDA1591148BF1D10005563B /* stdafx.h in Headers */,
+				4FDA1593148BF1D10005563B /* Visualizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4FDA1568148BF1810005563B /* citp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDA156D148BF1820005563B /* Build configuration list for PBXNativeTarget "citp" */;
+			buildPhases = (
+				4FDA1565148BF1810005563B /* Headers */,
+				4FDA1566148BF1810005563B /* Sources */,
+				4FDA1567148BF1810005563B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = citp;
+			productName = citp;
+			productReference = 4FDA1569148BF1810005563B /* libcitpd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FDA1554148BF1530005563B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4FDA1557148BF1530005563B /* Build configuration list for PBXProject "citp_xc" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4FDA1552148BF1530005563B;
+			productRefGroup = 4FDA156A148BF1810005563B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDA1568148BF1810005563B /* citp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDA1566148BF1810005563B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA1581148BF1D10005563B /* citp-lib.cpp in Sources */,
+				4FDA1584148BF1D10005563B /* Fixture.cpp in Sources */,
+				4FDA1586148BF1D10005563B /* FixtureModel.cpp in Sources */,
+				4FDA1588148BF1D10005563B /* Mediaserver.cpp in Sources */,
+				4FDA158A148BF1D10005563B /* PacketCreator.cpp in Sources */,
+				4FDA158C148BF1D10005563B /* Peer.cpp in Sources */,
+				4FDA158E148BF1D10005563B /* PeerInformationSocket.cpp in Sources */,
+				4FDA1590148BF1D10005563B /* stdafx.cpp in Sources */,
+				4FDA1592148BF1D10005563B /* Visualizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FDA1555148BF1530005563B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4FDA1556148BF1530005563B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		4FDA156B148BF1820005563B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					__WXDEBUG__,
+					__WXMAC__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					"stricmp=strcasecmp",
+					"strnicmp=strncasecmp",
+				);
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					.,
+					"/usr/local/lib/wx/include/mac-ansi-debug-2.8",
+					"/usr/local/include/wx-2.8",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = citpd;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		4FDA156C148BF1820005563B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					__WXMAC__,
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					"stricmp=strcasecmp",
+					"strnicmp=strncasecmp",
+				);
+				HEADER_SEARCH_PATHS = (
+					.,
+					"/usr/local/lib/wx/include/mac-ansi-release-static-2.8",
+					"/usr/local/include/wx-2.8",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = citp;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDA1557148BF1530005563B /* Build configuration list for PBXProject "citp_xc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA1555148BF1530005563B /* Debug */,
+				4FDA1556148BF1530005563B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDA156D148BF1820005563B /* Build configuration list for PBXNativeTarget "citp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA156B148BF1820005563B /* Debug */,
+				4FDA156C148BF1820005563B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FDA1554148BF1530005563B /* Project object */;
+}
